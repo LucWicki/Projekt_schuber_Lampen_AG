@@ -1,0 +1,136 @@
+#navigation-container {
+    display: flex;
+    border-color: black;
+    border: 0px 1px ;
+    border-style: solid;
+    background-color: rgb(231, 206, 159);
+    padding: 0%;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 80px;
+    margin: 0%;
+    
+}
+
+.navigation-item {
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    color: #293133 ;
+    padding: 20px 10px;
+    align-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;  
+    flex-grow: 1;
+    
+}
+.navigation-Logo{
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    height: 80px;
+}
+.team-manage{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.organisation-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+  
+  body{
+    margin: 0;
+    background-color:rgb(236, 194, 127);
+}
+.Foot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(231, 206, 159);
+    justify-content: flex-end;
+    
+    }
+    .Foot-Item{
+        flex-wrap: wrap;
+        color: #293133;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    .info-table{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-content: space-between;
+    }
+    .holding-table{
+        display: flex;
+        width: 49%;
+    }
+    .contact-table{
+        display: flex;
+        width: 49%; 
+    }
+    .picture-width{
+        width: 49%;
+    }
+    .space{
+        padding-bottom: 100px;
+    }
+    
+
+
+.person {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.person-inner-container {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.person-inner-container img {
+    height: 500px;
+}
+
+.person-inner-container div {
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ABB21D;
+    color: white;
+}
+
+.person-inner-container p {
+    margin: 0;
+}
+
+.linkste{
+    color:rgb(76, 104, 10);
+    text-decoration: none;
+  }
+

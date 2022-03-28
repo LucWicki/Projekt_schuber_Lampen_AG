@@ -1,0 +1,116 @@
+#navigation-container {
+    display: flex;
+    border-color: black;
+    border: 0px 1px ;
+    border-style: solid;
+    background-color: rgb(231, 206, 159);
+    padding: 0%;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 80px;
+    margin: 0%;
+    
+}
+
+.navigation-item {
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    color: #293133 ;
+    padding: 20px 10px;
+    align-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;  
+    flex-grow: 1;
+    
+}
+.navigation-Logo{
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    height: 80px;
+}
+
+.Header{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+    padding-bottom: 100px;
+}
+.Teaser{
+   position: absolute;
+   bottom: 100px;
+   left: 0;
+   font-size: 50px;
+   font-weight: bold;
+   width: 100%;
+   text-decoration: none;
+}
+.text-dark{
+color: black;
+text-shadow: 1px 1px white;
+
+}
+.text-white{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.navigation-teaser{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    
+}
+.teaser-item{
+    position: relative;
+    text-align: center;
+}
+.Teaser-background{
+    height: 400px;
+    
+}
+
+.Foot{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background-color: rgb(231, 206, 159);
+justify-content: flex-end;
+
+}
+.Foot-Item{
+    display: flex;
+    flex-wrap: wrap;
+    color: #293133;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: flex-start;
+    
+}
+body{
+    margin: 0;
+    background-color:rgb(236, 194, 127);
+}
+.Anmeldung{
+    display: flex;
+    flex-wrap: wrap;
+    color: #293133;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+
+.linksfo{
+    color:rgb(40, 104, 10);
+    text-decoration: none;
+  }
+

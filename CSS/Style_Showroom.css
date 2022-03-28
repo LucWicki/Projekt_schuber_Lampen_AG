@@ -1,0 +1,29 @@
+.space{
+    padding-bottom: 100px;
+}
+.mapandshow{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.mapandshow-item{
+    width: 49%;
+}
+body{
+    margin: 0;
+}
+.text-width2{
+    width: 100%;
+}
+.text2{
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(219, 146, 87);
+    padding: 10px 0; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+
+}
+.text-padding{
+    padding-bottom: 50px;
+}

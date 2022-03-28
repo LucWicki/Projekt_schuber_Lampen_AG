@@ -1,0 +1,54 @@
+.smart{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-direction: column;
+    width: 49%;
+}
+
+
+.service{
+  display: flex;  
+  flex-direction: column;
+  width: 40%;
+}
+
+table.styled {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: rgb(199, 219, 87);
+}
+
+table.styled td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+table.styled tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.space{
+  padding-bottom: 100px;
+}
+.team-manage{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: nowrap;
+
+}
+.width2{
+  width: 100%;
+}
+.service2{
+  display: flex;  
+  flex-direction: column;
+  width: 100%;
+}
+
+.links{
+  color:rgb(40, 104, 10);
+  text-decoration: none;
+}
